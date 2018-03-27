@@ -1,0 +1,33 @@
+{
+  "name": "nodepress",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "config-lite": "^2.1.0",
+    "connect-flash": "^0.1.1",
+    "connect-mysql": "^2.1.7",
+    "cookie-parser": "~1.4.3",
+    "crypto": "^1.0.1",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "express-formidable": "^1.0.0",
+    "express-mysql-session": "^1.2.3",
+    "express-session": "^1.15.6",
+    "formidable": "^1.2.0",
+    "jade": "~1.11.0",
+    "lodash": "^4.17.5",
+    "marked": "^0.3.17",
+    "moment": "^2.21.0",
+    "morgan": "~1.9.0",
+    "mysql": "^2.15.0",
+    "objectid-to-timestamp": "^1.3.0",
+    "pinyin": "^2.8.3",
+    "serve-favicon": "~2.4.5",
+    "sha1": "^1.1.1",
+    "winston": "^3.0.0-rc3"
+  }
+}
